@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.annulusgames.tween-playables": {
+      "version": "file:TweenPlayables",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.textmeshpro": "2.0.1",
+        "com.unity.timeline": "1.2.14"
+      }
+    },
     "com.unity.burst": {
       "version": "1.8.11",
       "depth": 1,
@@ -142,6 +151,12 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.unity.uiplayables": {
+      "version": "file:com.ui.animation.uiplayables",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.visualscripting": {
       "version": "1.9.1",
